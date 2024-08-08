@@ -1,0 +1,116 @@
+[2024-08-07 22:41:02] [ INFO ] [OdontologoDAOH2:46] org.h2.Driver
+[2024-08-07 22:41:09] [ INFO ] [OdontologoDAOH2:46] org.h2.Driver
+[2024-08-07 22:43:54] [ ERROR] [BD:47] fallo en la BD: org.h2.Driver
+[2024-08-07 22:43:54] [ INFO ] [OdontologoDAOH2:46] org.h2.Driver
+[2024-08-07 22:44:06] [ ERROR] [BD:47] fallo en la BD: org.h2.Driver
+[2024-08-07 22:44:06] [ INFO ] [OdontologoDAOH2:46] org.h2.Driver
+[2024-08-07 22:44:17] [ ERROR] [BD:47] fallo en la BD: org.h2.Driver
+[2024-08-07 22:44:17] [ INFO ] [OdontologoDAOH2:46] org.h2.Driver
+[2024-08-07 22:44:58] [ ERROR] [BD:47] fallo en la BD: org.h2.Driver
+[2024-08-07 22:45:08] [ ERROR] [BD:47] fallo en la BD: org.h2.Driver
+[2024-08-07 22:48:02] [ ERROR] [BD:47] fallo en la BD: org.h2.Driver
+[2024-08-07 22:48:31] [ ERROR] [BD:47] fallo en la BD: org.h2.Driver
+[2024-08-07 22:49:36] [ ERROR] [BD:47] fallo en la BD: org.h2.Driver
+[2024-08-07 22:51:23] [ INFO ] [OdontologoDAOH2:46] org.h2.Driver
+[2024-08-07 22:52:02] [ INFO ] [OdontologoDAOH2:46] org.h2.Driver
+[2024-08-07 22:52:51] [ ERROR] [BD:47] fallo en la BD: org.h2.Driver
+[2024-08-07 22:52:51] [ INFO ] [OdontologoDAOH2:46] org.h2.Driver
+[2024-08-07 22:53:23] [ ERROR] [BD:47] fallo en la BD: org.h2.Driver
+[2024-08-07 22:53:23] [ INFO ] [OdontologoDAOH2:46] org.h2.Driver
+[2024-08-07 22:55:18] [ ERROR] [BD:47] fallo en la BD: Syntax error in SQL statement "INSERT INTO ODONTOLOGOS (NUMEROMATRICULA,NOMBRE,APELLIDO) [*]+ VALUES('123','Sarid','Herrera');"; expected "OVERRIDING USER VALUE, OVERRIDING SYSTEM VALUE, DIRECT, DEFAULT VALUES, VALUES, SET, WITH, (, SELECT, TABLE, VALUES"; SQL statement:
+INSERT INTO ODONTOLOGOS (NUMEROMATRICULA,NOMBRE,APELLIDO) + VALUES('123','Sarid','Herrera'); [42001-230]
+[2024-08-07 22:55:18] [ INFO ] [OdontologoDAOH2:46] Column "NUMERO_MATRICULA" not found; SQL statement:
+INSERT INTO ODONTOLOGOS (ID, NUMERO_MATRICULA, NOMBRE, APELLIDO) VALUES(?,?,?,?) [42122-230]
+[2024-08-07 22:55:18] [ INFO ] [OdontologoDAOH2:46] Column "NUMERO_MATRICULA" not found; SQL statement:
+INSERT INTO ODONTOLOGOS (ID, NUMERO_MATRICULA, NOMBRE, APELLIDO) VALUES(?,?,?,?) [42122-230]
+[2024-08-07 22:56:45] [ INFO ] [BD:46] datos cargados con exito
+[2024-08-07 22:56:45] [ INFO ] [OdontologoDAOH2:46] Column "NUMERO_MATRICULA" not found; SQL statement:
+INSERT INTO ODONTOLOGOS (ID, NUMERO_MATRICULA, NOMBRE, APELLIDO) VALUES(?,?,?,?) [42122-230]
+[2024-08-07 22:56:45] [ INFO ] [OdontologoDAOH2:46] Column "NUMERO_MATRICULA" not found; SQL statement:
+INSERT INTO ODONTOLOGOS (ID, NUMERO_MATRICULA, NOMBRE, APELLIDO) VALUES(?,?,?,?) [42122-230]
+[2024-08-07 22:56:45] [ INFO ] [OdontologoDAOH2:90] odontologo listado: Model.Odontologo@5f8e8a9d
+[2024-08-07 22:56:45] [ INFO ] [OdontologoDAOH2:90] odontologo listado: Model.Odontologo@5745ca0e
+[2024-08-07 22:57:51] [ INFO ] [BD:46] datos cargados con exito
+[2024-08-07 22:57:51] [ INFO ] [OdontologoDAOH2:46] Parameter "#4" is not set; SQL statement:
+INSERT INTO ODONTOLOGOS (ID, NUMERO_MATRICULA, NOMBRE, APELLIDO) VALUES(?,?,?,?) [90012-230]
+[2024-08-07 22:57:51] [ INFO ] [OdontologoDAOH2:46] Parameter "#4" is not set; SQL statement:
+INSERT INTO ODONTOLOGOS (ID, NUMERO_MATRICULA, NOMBRE, APELLIDO) VALUES(?,?,?,?) [90012-230]
+[2024-08-07 22:57:51] [ INFO ] [OdontologoDAOH2:90] odontologo listado: Model.Odontologo@2de56eb2
+[2024-08-07 22:57:51] [ INFO ] [OdontologoDAOH2:90] odontologo listado: Model.Odontologo@5f8e8a9d
+[2024-08-07 22:59:06] [ ERROR] [BD:49] fallo en la BD: NULL not allowed for column "ID"; SQL statement:
+INSERT INTO ODONTOLOGOS (ID, NUMERO_MATRICULA, NOMBRE, APELLIDO) VALUES (not null,'123', 'Sarid', 'Herrera'), (not null,'124', 'Yuri', 'Ochoa') [23502-230]
+[2024-08-07 22:59:06] [ INFO ] [OdontologoDAOH2:46] Parameter "#4" is not set; SQL statement:
+INSERT INTO ODONTOLOGOS (ID, NUMERO_MATRICULA, NOMBRE, APELLIDO) VALUES(?,?,?,?) [90012-230]
+[2024-08-07 22:59:06] [ INFO ] [OdontologoDAOH2:46] Parameter "#4" is not set; SQL statement:
+INSERT INTO ODONTOLOGOS (ID, NUMERO_MATRICULA, NOMBRE, APELLIDO) VALUES(?,?,?,?) [90012-230]
+[2024-08-07 22:59:35] [ INFO ] [BD:46] datos cargados con exito
+[2024-08-07 22:59:35] [ INFO ] [OdontologoDAOH2:46] Parameter "#4" is not set; SQL statement:
+INSERT INTO ODONTOLOGOS (ID, NUMERO_MATRICULA, NOMBRE, APELLIDO) VALUES(?,?,?,?) [90012-230]
+[2024-08-07 22:59:35] [ INFO ] [OdontologoDAOH2:46] Parameter "#4" is not set; SQL statement:
+INSERT INTO ODONTOLOGOS (ID, NUMERO_MATRICULA, NOMBRE, APELLIDO) VALUES(?,?,?,?) [90012-230]
+[2024-08-07 23:00:06] [ INFO ] [BD:46] datos cargados con exito
+[2024-08-07 23:00:06] [ INFO ] [OdontologoDAOH2:46] Syntax error in SQL statement "INSERT INTO ODONTOLOGOS (ID, NUMERO_MATRICULA, NOMBRE, APELLIDO) VALUES(?,?,?,[*])"; expected "DEFAULT, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"; SQL statement:
+INSERT INTO ODONTOLOGOS (ID, NUMERO_MATRICULA, NOMBRE, APELLIDO) VALUES(?,?,?,) [42001-230]
+[2024-08-07 23:00:06] [ INFO ] [OdontologoDAOH2:46] Syntax error in SQL statement "INSERT INTO ODONTOLOGOS (ID, NUMERO_MATRICULA, NOMBRE, APELLIDO) VALUES(?,?,?,[*])"; expected "DEFAULT, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"; SQL statement:
+INSERT INTO ODONTOLOGOS (ID, NUMERO_MATRICULA, NOMBRE, APELLIDO) VALUES(?,?,?,) [42001-230]
+[2024-08-07 23:00:50] [ ERROR] [BD:49] fallo en la BD: NULL not allowed for column "ID"; SQL statement:
+INSERT INTO ODONTOLOGOS (ID, NUMERO_MATRICULA, NOMBRE, APELLIDO) VALUES (not null,'123', 'Sarid', 'Herrera'), (not null,'124', 'Yuri', 'Ochoa') [23502-230]
+[2024-08-07 23:00:50] [ INFO ] [OdontologoDAOH2:46] Syntax error in SQL statement "INSERT INTO ODONTOLOGOS (ID, NUMERO_MATRICULA, NOMBRE, APELLIDO) VALUES(?,?,?,[*])"; expected "DEFAULT, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"; SQL statement:
+INSERT INTO ODONTOLOGOS (ID, NUMERO_MATRICULA, NOMBRE, APELLIDO) VALUES(?,?,?,) [42001-230]
+[2024-08-07 23:00:50] [ INFO ] [OdontologoDAOH2:46] Syntax error in SQL statement "INSERT INTO ODONTOLOGOS (ID, NUMERO_MATRICULA, NOMBRE, APELLIDO) VALUES(?,?,?,[*])"; expected "DEFAULT, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"; SQL statement:
+INSERT INTO ODONTOLOGOS (ID, NUMERO_MATRICULA, NOMBRE, APELLIDO) VALUES(?,?,?,) [42001-230]
+[2024-08-07 23:01:05] [ ERROR] [BD:49] fallo en la BD: NULL not allowed for column "ID"; SQL statement:
+INSERT INTO ODONTOLOGOS (ID, NUMERO_MATRICULA, NOMBRE, APELLIDO) VALUES (not null,'123', 'Sarid', 'Herrera'), (not null,'124', 'Yuri', 'Ochoa') [23502-230]
+[2024-08-07 23:01:05] [ INFO ] [OdontologoDAOH2:46] Syntax error in SQL statement "INSERT INTO ODONTOLOGOS (NUMERO_MATRICULA, NOMBRE, APELLIDO) VALUES(?,?,?,[*])"; expected "DEFAULT, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"; SQL statement:
+INSERT INTO ODONTOLOGOS (NUMERO_MATRICULA, NOMBRE, APELLIDO) VALUES(?,?,?,) [42001-230]
+[2024-08-07 23:01:05] [ INFO ] [OdontologoDAOH2:46] Syntax error in SQL statement "INSERT INTO ODONTOLOGOS (NUMERO_MATRICULA, NOMBRE, APELLIDO) VALUES(?,?,?,[*])"; expected "DEFAULT, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"; SQL statement:
+INSERT INTO ODONTOLOGOS (NUMERO_MATRICULA, NOMBRE, APELLIDO) VALUES(?,?,?,) [42001-230]
+[2024-08-07 23:01:26] [ INFO ] [BD:46] datos cargados con exito
+[2024-08-07 23:01:26] [ INFO ] [OdontologoDAOH2:46] Syntax error in SQL statement "INSERT INTO ODONTOLOGOS (NUMERO_MATRICULA, NOMBRE, APELLIDO) VALUES(?,?,?,[*])"; expected "DEFAULT, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"; SQL statement:
+INSERT INTO ODONTOLOGOS (NUMERO_MATRICULA, NOMBRE, APELLIDO) VALUES(?,?,?,) [42001-230]
+[2024-08-07 23:01:26] [ INFO ] [OdontologoDAOH2:46] Syntax error in SQL statement "INSERT INTO ODONTOLOGOS (NUMERO_MATRICULA, NOMBRE, APELLIDO) VALUES(?,?,?,[*])"; expected "DEFAULT, INTERSECTS (, NOT, EXISTS, UNIQUE, INTERSECTS"; SQL statement:
+INSERT INTO ODONTOLOGOS (NUMERO_MATRICULA, NOMBRE, APELLIDO) VALUES(?,?,?,) [42001-230]
+[2024-08-07 23:01:26] [ INFO ] [OdontologoDAOH2:90] odontologo listado: Model.Odontologo@6f204a1a
+[2024-08-07 23:01:26] [ INFO ] [OdontologoDAOH2:90] odontologo listado: Model.Odontologo@2de56eb2
+[2024-08-07 23:01:58] [ INFO ] [BD:46] datos cargados con exito
+[2024-08-07 23:01:58] [ INFO ] [OdontologoDAOH2:33] odontologo guardado: Model.Odontologo@76494737
+[2024-08-07 23:01:58] [ INFO ] [OdontologoDAOH2:33] odontologo guardado: Model.Odontologo@17fc391b
+[2024-08-07 23:01:58] [ INFO ] [OdontologoDAOH2:90] odontologo listado: Model.Odontologo@5965d37
+[2024-08-07 23:01:58] [ INFO ] [OdontologoDAOH2:90] odontologo listado: Model.Odontologo@7a5ceedd
+[2024-08-07 23:01:58] [ INFO ] [OdontologoDAOH2:90] odontologo listado: Model.Odontologo@4201c465
+[2024-08-07 23:01:58] [ INFO ] [OdontologoDAOH2:90] odontologo listado: Model.Odontologo@5b799640
+[2024-08-07 23:02:36] [ INFO ] [BD:46] datos cargados con exito
+[2024-08-07 23:02:36] [ INFO ] [OdontologoDAOH2:33] odontologo guardado: Model.Odontologo@359df09a
+[2024-08-07 23:02:36] [ INFO ] [OdontologoDAOH2:33] odontologo guardado: Model.Odontologo@792b749c
+[2024-08-07 23:02:36] [ INFO ] [OdontologoDAOH2:90] odontologo listado: Model.Odontologo@3de8f619
+[2024-08-07 23:02:36] [ INFO ] [OdontologoDAOH2:90] odontologo listado: Model.Odontologo@2ab4bc72
+[2024-08-07 23:02:36] [ INFO ] [OdontologoDAOH2:90] odontologo listado: Model.Odontologo@4e5ed836
+[2024-08-07 23:02:36] [ INFO ] [OdontologoDAOH2:90] odontologo listado: Model.Odontologo@eadd4fb
+[2024-08-07 23:07:15] [ INFO ] [BD:46] datos cargados con exito
+[2024-08-07 23:07:15] [ INFO ] [OdontologoDAOH2:33] odontologo guardado: Model.Odontologo@303cf2ba
+[2024-08-07 23:07:15] [ INFO ] [OdontologoDAOH2:33] odontologo guardado: Model.Odontologo@4082ba93
+[2024-08-07 23:07:15] [ INFO ] [OdontologoDAOH2:90] odontologo listado: Model.Odontologo@673fdbce
+[2024-08-07 23:07:15] [ INFO ] [OdontologoDAOH2:90] odontologo listado: Model.Odontologo@5965d37
+[2024-08-07 23:07:15] [ INFO ] [OdontologoDAOH2:90] odontologo listado: Model.Odontologo@7a5ceedd
+[2024-08-07 23:07:15] [ INFO ] [OdontologoDAOH2:90] odontologo listado: Model.Odontologo@4201c465
+[2024-08-07 23:09:10] [ INFO ] [BD:46] datos cargados con exito
+[2024-08-07 23:09:10] [ INFO ] [OdontologoDAOH2:33] odontologo guardado: Model.Odontologo@303cf2ba
+[2024-08-07 23:09:10] [ INFO ] [OdontologoDAOH2:33] odontologo guardado: Model.Odontologo@4082ba93
+[2024-08-07 23:09:10] [ INFO ] [OdontologoDAOH2:90] odontologo listado: Model.Odontologo@673fdbce
+[2024-08-07 23:09:10] [ INFO ] [OdontologoDAOH2:90] odontologo listado: Model.Odontologo@5965d37
+[2024-08-07 23:09:10] [ INFO ] [OdontologoDAOH2:90] odontologo listado: Model.Odontologo@7a5ceedd
+[2024-08-07 23:09:10] [ INFO ] [OdontologoDAOH2:90] odontologo listado: Model.Odontologo@4201c465
+[2024-08-07 23:10:12] [ INFO ] [BD:46] datos cargados con exito
+[2024-08-07 23:10:12] [ INFO ] [OdontologoDAOH2:33] odontologo guardado: Model.Odontologo@303cf2ba
+[2024-08-07 23:10:12] [ INFO ] [OdontologoDAOH2:33] odontologo guardado: Model.Odontologo@4082ba93
+[2024-08-07 23:10:12] [ INFO ] [OdontologoDAOH2:90] odontologo listado: Model.Odontologo@673fdbce
+[2024-08-07 23:10:12] [ INFO ] [OdontologoDAOH2:90] odontologo listado: Model.Odontologo@5965d37
+[2024-08-07 23:10:12] [ INFO ] [OdontologoDAOH2:90] odontologo listado: Model.Odontologo@7a5ceedd
+[2024-08-07 23:10:12] [ INFO ] [OdontologoDAOH2:90] odontologo listado: Model.Odontologo@4201c465
+[2024-08-07 23:10:22] [ INFO ] [BD:46] datos cargados con exito
+[2024-08-07 23:10:22] [ INFO ] [OdontologoDAOH2:33] odontologo guardado: Model.Odontologo@303cf2ba
+[2024-08-07 23:10:22] [ INFO ] [OdontologoDAOH2:33] odontologo guardado: Model.Odontologo@4082ba93
+[2024-08-07 23:10:22] [ INFO ] [OdontologoDAOH2:90] odontologo listado: Model.Odontologo@673fdbce
+[2024-08-07 23:10:22] [ INFO ] [OdontologoDAOH2:90] odontologo listado: Model.Odontologo@5965d37
+[2024-08-07 23:10:22] [ INFO ] [OdontologoDAOH2:90] odontologo listado: Model.Odontologo@7a5ceedd
+[2024-08-07 23:10:22] [ INFO ] [OdontologoDAOH2:90] odontologo listado: Model.Odontologo@4201c465
